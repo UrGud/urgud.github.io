@@ -8,101 +8,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0" />
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>UrGud</title>
 </head>
 <body>
     <main>
         <header>
-            <div class="imgs">
-                <img src="img/logo.png" alt="">
-                <img src="img/pfp.png" alt="">
-            </div>
-            <div class="socials">
-                <a href="https://www.youtube.com/@urgud_" target="_blank">UrGud</a>
-                <a href="https://twitter.com/urgud_" target="_blank">urgud_</a>
-                <a href="https://www.fiverr.com/igud93/edit-a-minecraft-video-for-you" target="_blank">UrGud</a>
-                <a href="https://discord.com/users/958717673271865384" target="_blank">UrGud</a>
-            </div>
+            <img src="img/logo.png" alt="">
         </header>
-        <section style="margin-top: 900px;">
-            <div class="banner">
-                <span style="text-align: center;">Introduction</span>
-            </div>
-            <video src="img/gig-trailer.mp4" controls autoplay></video>
+        <div class="texts">
+            <p>I’ve been a video editor for 8 years.</p>
+            <h1>Here are some videos I've edited:</h1>
+        </div>
+        <section class="videos">
+            <div class="group"></div>
+            <script src="script.js"></script>
         </section>
-        <section>
-            <div class="banner">
-                <span style="text-align: left;">About</span>
-            </div>
-            <div class="flex-grid">
-                <div class="item">
-                    <div class="img-container">
-                        <img src="img/icon/question.svg" alt="" class="icon">
-                    </div>
-                    <div class="i-card">
-                        <h1>Why are you here?</h1>
-                        <p>I first wanted to help anyone (who had no money at all, and I had no PayPal),<br>but now I have a job on Fiverr.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="img-container">
-                        <img src="img/icon/minecraft.svg" alt="" class="icon">
-                    </div>
-                    <div class="i-card">
-                        <h1>What can you do?</h1>
-                        <p>I can only edit Minecraft videos. Sometimes I edit other types of videos. I’ve been an editor for 7 years and counting.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="img-container">
-                        <img src="img/icon/time.svg" alt="" class="icon">
-                    </div>
-                    <div class="i-card">
-                        <h1>When can I expect a video?</h1>
-                        <p>Delivery time depends on the difficulty, the length of footage and how dedicated I am. I offer drafts (watermarked) to update you on the progress.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="img-container">
-                        <img src="img/icon/edit.svg" alt="" class="icon">
-                    </div>
-                    <div class="i-card">
-                        <h1>What editing software do you use?</h1>
-                        <p>I had been using Filmora for personal work, but then I changed computers, and I was hearing about DaVinci Resolve.<br>Haven't came back since.</p>
-                    </div>
-                </div>
+        <section class="contact">
+            <h1>Feel free to contact me!</h1>
+            <div>
+                <button class="social"><i class="fa-brands fa-discord"></i></button>
+                <button class="social"><i class="fa-brands fa-youtube"></i></button>
+                <button class="social"><i class="fa-brands fa-square-x-twitter"></i></button>
+                <button class="social social-long"><i class="fa-solid fa-folder-open"></i><span style="margin-left: 5px; font-weight: 400">Playlist</span></button>
             </div>
         </section>
-        <section style="background: var(--color-secondary);">
-            <div class="banner">
-                <span style="text-align: center;">Examples</span>
-            </div>
-            <div class="i-container">
-                <iframe width="1100" height="618" src="https://www.youtube.com/embed/3A8Vm7FyW2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="i-container">
-                <iframe width="1100" height="618" src="https://www.youtube.com/embed/nqzkEEqfRBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="i-container">
-                <iframe width="1100" height="618" src="https://www.youtube.com/embed/cDfAEywAw8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </section>
-        <section>
-            <div class="banner">
-                <span style="text-align: right;">Playlist</span>
-            </div>
-            <div class="playlist">
-                <div class="p-card">
-                    <h1>My edited videos</h1>
-                    <button onclick="window.location = 'https://www.youtube.com/watch?v=ryWObofxFKM&list=PL0D1m9x7BZeAPeqU6HCOBMTVh2Q4BsWUq&index=1'"><img src="img/icon/play.svg" alt=""></button>
-                </div>
-                <img src="img/maxresdefault.jpg" alt="">
-            </div>
-        </section>
-        <footer>
-            <h1>Have something to say?</h1>
-            <button onclick="window.location = 'mailto:urgudbro@gmail.com'"><span class="material-symbols-rounded">mail</span>E-mail</button>
-        </footer>
     </main>
 </body>
 </html>
