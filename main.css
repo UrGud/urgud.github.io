@@ -68,14 +68,12 @@ main section {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 main .videos {
     width: 300%;
     padding: 50px 0;
     overflow: hidden;
-    gap: 50px;
     > * {
       flex: 0 0 100%;
     }
@@ -87,6 +85,7 @@ main .videos {
 
 main .videos .group {
     display: flex;
+    padding: 0 50px;
     gap: 50px;
     will-change: transform; /* We should be nice to the browser - let it know what we're going to animate. */
     animation: scrolling 40s linear infinite;
